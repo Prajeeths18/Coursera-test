@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+	font-family: "Menlo";
+}
+
+body {
+	background-color: fuchsia;
+}
+
+h1 {
+	margin-left: 40%;
+	width: 20%;
+	background-color: maroon;
+	margin-bottom: 20px;
+	color: white;
+	text-align: center;
+	font-size: 175%;
+}
+
+.row {
+	margin-left: 5%;
+	width : 90%;
+	text-align: center;
+	position: relative;
+}
+
+.idly{
+	border: 1px solid black;
+	margin-bottom: 10px;
+	background-color: silver;
+	height: 200px;
+	overflow: auto;
+	resize: vertical;
+}
+
+.dosa {
+	border: 1px solid black;
+	margin-bottom: 10px;
+	background-color: silver;
+	height: 200px;
+	overflow: auto;
+}
+
+.vadai {
+	border: 1px solid black;
+	margin-bottom: 10px;
+	background-color: silver;
+	height: 200px;
+	overflow: auto;
+}
+
+.idly-c{
+	color: red;
+	padding: 60px 10px 10px 10px;
+}
+
+.idly-h {
+	postion: relative;
+	float: right;
+	width: 30%;
+	height: 20%;
+	padding: 1%;
+	border: 1px solid black;
+	font-size: 125%;	
+	background-color: lime;
+}
+
+.dosa-c{
+	color: navy;
+	padding: 60px 10px 10px 10px;
+}
+
+.dosa-h {
+	postion: relative;
+	float: right;
+	width: 30%;
+	height: 20%;
+	padding: 1%;
+	border: 1px solid black;
+	font-size: 125%;	
+	background-color: aqua;
+}
+
+.vadai-c{
+	color: green;
+	padding: 60px 10px 10px 10px;
+}
+
+.vadai-h {
+	postion: relative;
+	float: right;
+	width: 30%;
+	height: 20%;
+	padding: 1%;
+	border: 1px solid black;
+	font-size: 125%;
+	background-color: yellow;	
+}
+
+@media (min-width: 992px) {
+	.idly {
+		width: 30%;
+		margin-right: 5%;
+		float: left;
+	}
+	.dosa {
+		width: 30%;
+		margin-right: 5%;
+		float: left;
+	}
+	.vadai {
+		width: 30%;
+		float: left;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.idly {
+		width: 47.5%;
+		margin-right: 5%;
+		margin-bottom: 20px;
+		float: left;
+	}
+	.dosa {
+		width: 47.5%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.vadai {
+		float: left;
+	}
+}
+
+@media (max-width: 767px) {
+	.idly {
+		width: 100%;
+		margin-bottom: 20px;
+		float: left;
+	}
+	.dosa {
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.vadai {
+		float: left;
+	}
+}
